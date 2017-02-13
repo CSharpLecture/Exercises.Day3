@@ -18,9 +18,9 @@ Finally use your structure in a new version of your calculator. This time not in
 
 Start by creating an `abstract` class called `Vehicle`. Create two `abstract` methods called `Accelerate()` and `Brake()`. Additionally you should place an (protected) integer variable called `tires`. Add a property called `Tire`, which defines a `get` block for the variable.
 
-Derive a class called `Car` from `Vehicle`. Implement the two functions in such a way, that they display the state change like "The car is is driving" or "The car is braking" on the console. Additionally extend the class with an integer property called `Gears` (with `get` and `set`) and set the value of `tires` to 4.
+Derive a class called `Car` from `Vehicle`. Implement the two functions in such a way, that they display the state change like "The car is is accelerating" or "The car is braking" on the console. Additionally extend the class with an integer property called `Gears` (with `get` and `set`) and set the value of `tires` to 4.
 
-Finally derive from `Car` and call the new class `Porsche`. Override the method `Drive()` with some string that might represent your attitude towards driving a Porsche.
+Finally derive from `Car` and call the new class `Porsche`. Override the method `Accelerate()` with some string that might represent your attitude towards driving a Porsche.
 
 ## 14. Let's create a copy
 
